@@ -23,3 +23,5 @@ function requestChar (url) {
     });
   });
 }
+
+filmRequest(`https://swapi-api.hbtn.io/api/films/${process.argv[2]}/`);
