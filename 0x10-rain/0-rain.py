@@ -25,3 +25,5 @@ def rain(walls):
         for j in range(i + 1, len(walls)):
             right = max(right, walls[j])
         somme = somme + (min(left, right) - walls[i])
+
+    return somme
